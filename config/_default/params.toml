@@ -1,0 +1,25 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableCodeCopy = true
+enableSearch = false
+
+[homepage]
+  layout = "page"
+
+[article]
+  showDate = true
+  showAuthor = true
+  showReadingTime = true
+  showTableOfContents = true
+  showBreadcrumbs = true
+  showWordCount = false
+  showEdit = false
+  showPagination = true
+  showDateUpdated = false
+  showTaxonomies = true
+
+[footer]
+  showAppearanceSwitcher = true
+  showScrollToTop = true
