@@ -40,6 +40,7 @@ export class BlogSiteStack extends cdk.Stack {
           ],
           accessControlAllowHeaders: ["*"],
           accessControlAllowMethods: ["GET", "HEAD"],
+          accessControlAllowCredentials: false,
           accessControlMaxAge: cdk.Duration.seconds(86400),
           originOverride: true,
         },
